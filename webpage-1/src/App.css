@@ -1,0 +1,72 @@
+/*mobile-first*/
+/*header*/
+.header-mobile{
+  
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  padding:15px 15px;
+  z-index:100;
+}
+.header-mobile__content{
+  
+  display:flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items:center;
+  
+}
+.header-mobile__content > a{
+  text-decoration: none;
+  color:#eeee;
+  
+}
+.header-mobile__content  a > h1{
+  font-size:30px;
+  font-weight:700;
+}
+.bx-menu{
+  font-size:40px;
+  color:#eee;
+}
+
+
+/*Baner-mobile-1*/
+.baner1{
+  background:url(./webpage/imgs/olga-guryanova-tMFeatBSS4s-unsplash.jpg);
+  background-size:cover;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+}
+.baner1::before{
+  content:'';
+  display:block;
+  background:rgba(26,26,26,.5);
+  width:50px;
+  height:100px;
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100vh;
+}
+.barner1__section1 >h3{
+  font-size:18px;
+}
+
+.barner1__section1 >h2{
+font-size:40px;
+color:#eee;
+}
+
+.btn-outline-light{
+  border-radius:40px;
+  font-size:23px;
+}
+
+.baner1-article{
+ 
+  position: relative;
+}
