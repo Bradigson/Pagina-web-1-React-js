@@ -8,7 +8,7 @@ const Header = ()=>{
     return(
         <header className="header-mobile">
             <div className="header-mobile__content">
-                <a href="#"><h1>Med<span className="text-info">i</span>ck<span className="text-info">BN</span></h1></a>
+                <a href="https://www.youtube.com/watch?v=R6Shj44o3L0"><h1>Med<span className="text-info">i</span>ck<span className="text-info">BN</span></h1></a>
                 <button className="btn btn-info btn-sm p-0 "><i className='bx bx-menu'></i></button>
             </div>
         </header>
@@ -64,7 +64,7 @@ const Baner2 = ()=>{
                         <div className="box2-boxchildren1">
                             <div className="box2-children1__i"><i className='bx bx-calendar text-center'></i></div>
                             <div>
-                                <h2><a className="nav-link" href="#">10 Year Of Experience</a></h2>
+                                <h2><a className="nav-link" href="https://www.youtube.com/watch?v=R6Shj44o3L0">10 Year Of Experience</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit.</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const Baner2 = ()=>{
                         <div className="box-children2 mt-4">
                             <div className="box2-children2__i"><i className='bx bxs-edit text-center'></i></div>
                             <div>
-                                <h2><a className="nav-link" href="">Free Consultation</a></h2>
+                                <h2><a className="nav-link" href="https://www.youtube.com/watch?v=R6Shj44o3L0">Free Consultation</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit.</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const Baner2 = ()=>{
                         <div className="box-children3 mt-4">
                             <div className="box2-children3__i"><i className='bx bxs-shield text-center'></i></div>
                             <div>
-                                <h2><a className="nav-link" href="">100% Guranteed</a></h2>
+                                <h2><a className="nav-link" href="https://www.youtube.com/watch?v=R6Shj44o3L0">100% Guranteed</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit.</p>
                             </div>
                         </div>
@@ -384,12 +384,12 @@ const Footer = ()=>{
                     <div className="col">
                         <ul className="ul">
                             <li><h2>History</h2></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Blog Post</a></li>
-                            <li><a href="">Departments</a></li>
-                            <li><a href="">Carrers</a></li>
-                            <li><a href="">Team</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">About Us</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Blog Post</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Departments</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Carrers</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Team</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Contact Us</a></li>
                         </ul>
                     </div>
 
@@ -397,12 +397,12 @@ const Footer = ()=>{
                     <div className="col">
                         <ul className="ul">
                             <li><h2>Useful Link</h2></li>
-                            <li><a href="">Terms of service</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Documentation</a></li>
-                            <li><a href="">Support</a></li>
-                            <li><a href="">Components</a></li>
-                            <li><a href="">Cahngelog</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Terms of service</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Privacy Policy</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Documentation</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Support</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Components</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=R6Shj44o3L0">Cahngelog</a></li>
                         </ul>
                     </div>
 
