@@ -1,3 +1,8 @@
+/*first Component*/
+.App{
+  background:#262626;
+}
+
 /*mobile-first*/
 /*header*/
 .header-mobile{
@@ -6,9 +11,15 @@
   top:0;
   left:0;
   width:100%;
-  padding:15px 15px;
+  padding:20px 20px;
   z-index:100;
+  transition: all 1.2s;
 }
+.header-mobile.sticky{
+  background:#262626;
+  padding:15px 20px;
+}
+
 .header-mobile__content{
   
   display:flex;
@@ -35,6 +46,7 @@
 /*Baner-mobile-1*/
 .baner1{
   background:url(./webpage/imgs/olga-guryanova-tMFeatBSS4s-unsplash.jpg);
+  /*background-attachment: fixed;*/
   background-size:cover;
   display:flex;
   justify-content: center;
@@ -69,4 +81,283 @@ color:#eee;
 .baner1-article{
  
   position: relative;
+}
+
+
+
+/*baner2 mobile*/
+.baner-2{
+  color:#eee;
+}
+#btn-info{
+  font-size:20px;
+  border-radius:30px;
+}
+.baner2-article1-section1__div1 > h3{
+  font-size:16px;
+
+}
+.baner2-article1-section1__div1 > h2{
+  font-weight:700;
+  
+}
+
+.baner2-section__box1 > h3{
+  font-size:16px;
+
+}
+.baner2-section__box1 > h2{
+  font-weight:700;
+}
+
+.box2-boxchildren1, .box-children2, .box-children3{
+  display:flex;
+}
+
+.bx-calendar, .bxs-edit, .bxs-shield{
+  background:rgba(26,26,26);
+  width:85px;
+  height:90px;
+  border-radius:10px;
+  display: grid;
+  align-items:center;
+  font-size:55px;
+  color:#85C1E9;
+
+}
+.box2-children1__i, .box2-children2__i, .box2-children3__i{
+  
+  height:90px;
+  width:85px;
+  margin-right:20px;
+}
+
+.nav-link{
+  margin-left:-20px;
+}
+
+
+.nav-link{
+  color:#eee;
+}
+.nav-link:hover{
+  color:#85C1E9;
+}
+
+.bx-calendar:hover{
+
+  background:#85C1E9;
+  color:#eee;
+}
+
+
+.box3-img{
+
+  
+  height:60vh;
+  border-radius:10px;
+}
+.box3-img > img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+
+
+
+/*Baner3*/
+
+.baner3-article1{
+  background:;
+
+}
+
+.barner3-article-section__content > h3{
+  font-size:17px;
+}
+.barner3-article-section__content > h2{
+  font-weight: 700;
+  font-size:35px;
+}
+
+.boxes-1, .boxes-2, .boxes-3, .boxes-4, .boxes-5, .boxes-6{
+  display:flex;
+  color:#eee;
+}
+
+.bxl-99designs, .bxs-message-rounded, .bx-low-vision, .bxs-heart, .bxs-building-house, .bxs-tree{
+  background:rgb(22, 22, 22);
+  width:90px;
+  height:90px;
+  color:#6495ed;
+  font-size:60px;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  border-radius:10px;
+  
+}
+.i, .i-2, .i-3, .i-4, .i-5, .i-6{
+
+  width:90px;
+  height:90px;
+  margin-right:20px;
+}
+
+
+
+
+/*Baner4*/
+.baner4__article1{
+  background:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)),url(./webpage/imgs/jc-gellidon-9Eb-bpTXglM-unsplash.jpg);
+  background-size:cover;
+  background-position: center;
+  
+}
+
+.bxs-user, .bx-laptop, .bx-laugh, .bxs-wine{
+ 
+  color:#85C1E9;
+  font-size:50px;
+  text-shadow: 2px 7px 10px rgba(0,0,0,.4);
+}
+
+.baner4-article-section__box1 > h2{
+  font-weight: 700;
+  color:#eee;
+  font-size:30px;
+}
+.baner4-article-section__box1 > p{
+  color:#eee;
+  font-size:18px;
+}
+
+
+
+.baner4-article-section__box2 > h2{
+  font-weight: 700;
+  color:#eee;
+  font-size:30px;
+}
+.baner4-article-section__box2 > p{
+  color:#eee;
+  font-size:18px;
+}
+
+
+
+
+.baner4-article-section__box3 > h2{
+  font-weight: 700;
+  color:#eee;
+  font-size:30px;
+}
+.baner4-article-section__box3 > p{
+  color:#eee;
+  font-size:18px;
+}
+
+
+
+
+.baner4-article-section__box4 > h2{
+  font-weight: 700;
+  color:#eee;
+  font-size:30px;
+}
+.baner4-article-section__box4 > p{
+  color:#eee;
+  font-size:18px;
+}
+
+
+
+.baner5-section2-card1__img{
+  width:90vw;
+}
+.baner5-section2-card1__img > img{
+  width:100%;
+  border-radius: 10px;
+}
+
+
+.bx-user-check, .bx-time, .bx-message-rounded{
+  color:#85C1E9;
+  font-size:20px;
+  margin-right: 10px;
+}
+
+.baner5-section2-card1__content{
+  display:flex;
+  align-items: center;
+}
+
+.baner5-section2-card1__content > span{
+  color:#eee;
+  font-size:15px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.admin1{
+  font-size:20px;
+}
+
+
+.baner5-section1 > h3{
+  font-size: 15px;
+}
+.baner5-section1 > h2{
+  font-size:38px;
+}
+
+.h4{
+  font-size:19px;
+}
+
+
+
+
+/*Baner6*/
+.baner5-contenedor{
+  background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)),url(./webpage/baner5Imgs/national-cancer-institute-701-FJcjLAQ-unsplash.jpg);
+  background-size:cover;
+}
+
+
+.form{
+  background:#262626;
+  padding:10px;
+  border-radius:10px;
+}
+.form > input{
+  background:#363535;
+  border-radius: 5px;
+  border:none;
+  color:#eee;
+}
+
+.form > input::placeholder{
+  color:#eee;
+}
+.date{
+  color:#eee;
+}
+.form > input:focus{
+  background:#363535;
+  color:#eee;
+
+}
+.form-button{
+  border-radius:50px;
+  font-size:16px;
+  font-weight: 700;
+}
+.ul li > a{
+  text-decoration: none;
+  color:#eee;
+
 }
